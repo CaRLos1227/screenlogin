@@ -1,5 +1,21 @@
 {
+  "name": "screenloginn",
+  "version": "1.0.0",
+  "description": "apis para uso manual ou automático",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "screen"
+  ],
+  "author": "CARLOS..-.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.1",
+    "npm": "<=8.12.1"
+  },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.17.3"
   }
 }
