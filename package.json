@@ -1,10 +1,10 @@
 {
   "name": "screenloginn",
   "version": "1.0.0",
-  "description": "apis para uso manual ou automático",
+  "description": "tela de login",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "screen"
