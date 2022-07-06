@@ -1,0 +1,53 @@
+* {
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+}
+
+#text-login {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 5.3rem;
+  padding: 1rem;
+  border: 3px solid black;
+}
+
+form {
+  text-align: center;
+  position: relative;
+  top: 7rem
+}
+
+form #p-1 {
+  position: relative;
+  color: white;
+  top: 7px;
+}
+
+form #p-2 {
+  position: relative;
+  color: white;
+  top: 19px;
+}
+
+form #i-1 {
+  position: relative;
+  top: 13px;
+}
+
+form #i-2 {
+  position: relative;
+  top: 15px;
+  left: 32px;
+}
+
+form #btn {
+  padding: 8px;
+  top: 3.5rem;
+  right: 78px;
+  border-radius: 13px;
+  color: white;
+  background-color: black;
+  position: relative;
+}
