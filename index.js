@@ -2,7 +2,7 @@ const app = require('express')();
 const http = require('http');
 const { readFileSync, writeFileSync } = require('fs');
 const server = http.createServer(app);
-const port = 3000;
+const port = process.env.PORT || 3000;
 const db = JSON.parse(readFileSync('./db/users.json'));
 
 app.get('/', (req, res) => {
